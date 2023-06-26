@@ -2,7 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Inter', sans-serif;
 }
 body{
     background-color: rgb(54, 54, 54);
@@ -10,6 +10,20 @@ body{
     
     
 }
+
+.text-principal{
+    width: 70%;
+    margin-left: 200px ;
+}
+
+.text-principal p{
+    text-align: justify;
+}
+
+.home-img{
+    margin-right: 400px;
+}
+
 .container{
     width: 100%;
     margin: 0;
