@@ -1,5 +1,5 @@
 .home{
-    margin-top: 70px;    
+    margin-top: 90px;    
     display: flex;
     justify-content: center;
     align-items: center;
@@ -7,7 +7,7 @@
 }
 
 .home-content{
-    margin-right: 155px;
+    margin-right: 100px;
 }
 
 .home-content h3{
@@ -68,6 +68,7 @@ h1 .title-integra{
 
 .about-img{
     width: 35vw;
+    padding-left: 200px;
 }
 
 .heading{
@@ -138,4 +139,21 @@ h1 .title-integra{
 .services-box p{
  font-size: 1.2rem;
  margin: 1rem 0 3rem
+}
+
+.sobrenos{
+    width: 70%;
+    padding-left: 70px;
+    margin-left: 200px;
+    text-align: justify;
+}
+
+.sobrenos2{
+    margin-left: 250px;
+    padding-right: 100px;
+}
+
+.about-img2 img{
+    width: 35vw;
+    padding-right: 200px;
 }

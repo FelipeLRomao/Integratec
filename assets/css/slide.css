@@ -6,13 +6,6 @@
     overflow: hidden;
     z-index: -1;
   }
-  /*position: fixed;
-  margin-top: 0;
-  padding-top: 0;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  */
 
 
 .navigation{
@@ -38,7 +31,7 @@
     background: #fff;
 }
 
-input{
+.slides input{
     display: none;
 }
 

@@ -13,6 +13,7 @@
     <link
         href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
         rel="stylesheet">
+        <script src="https://kit.fontawesome.com//c4254e24a8.js"></script>
     <title>Pagina Responsiva Contato IntegraTec</title>
     <!-- CSS da Página -->
     <link rel="stylesheet" href="assets/css/style.css">
@@ -22,9 +23,7 @@
 <body>
     <header>
         <div class="container">
-            <div class="logo">
-                <img src="assets/img/logo.png"   alt="">
-            </div>
+            <div class="logo"><img src="assets/img/logo.png" alt=""></div>
             <div class="menu">
                 <nav>
                     <a href="index.html">Home</a>
@@ -39,27 +38,23 @@
                 <button><i class="fa-brands fa-square-whatsapp"></i></button>
             </div>
             <div class="contatos">
-                <i class="fa-solid fa-envelope contatos-icon"></i>
-                <p>contato@integratec.com.br</p>
-                <i class="fa-solid fa-phone-volume contatos-icon"></i>
-                <p>(11)2233-4455</p>
-                <i class="fa-solid fa-phone-volume contatos-icon"></i>
-                <p>(11)97788-4433</p>
+                <i class="fa-solid fa-envelope contatos-icon"></i><p>contato@integratec.com.br</p>
+                <i class="fa-solid fa-phone-volume contatos-icon"></i><p>(11)2233-4455</p>
+                <i class="fa-solid fa-phone-volume contatos-icon"></i><p>(11)97788-4433</p>
             </div>
         </div>
+        
     </header>
 
     <section class="contact">
         <div class="contact-form">
-            <h1>Entre em<span>Contato</span></h1>
-            <p class="content-form">Para mais informações entre em contato com nossa equipe, tenha mais informações preenchendo o formulário abaixo:</p>
+            <h1>Entre em <span>Contato</span></h1>
+            <p class="content-form">Para mais informações entre em contato com a nossa equipe, deixe sua dúvida ou sugestão abaixo:</p>
             <form action="">
                 <input type="" placeholder="Seu nome" required>
                 <input type="email" name="email" id="" placeholder="E-mail" required>
                 <input type="" placeholder="Assunto" required>
-                <textarea name="" id="" cols="30" rows="10" placeholder="Sua Mensagem" required>
-
-                </textarea>
+                <textarea name="" id="" cols="30" rows="10" placeholder="Sua Mensagem " required></textarea>
                 <input type="submit" name="" value="Entre em Contato" class="btn">
             </form>
         </div>
@@ -69,7 +64,94 @@
          </div>
     </section>
 
+    <!-- campo FAQ //////////////////////////////////////////////////////// -->
 
+    <h2>Dúvidas frequentes</h2>
+    <ul class="accordion">
+        <li>
+            <input type="radio" name="accordion" id="first" checked>
+            <label for="first">Dúvida <span>1</span></label>
+            <div class="content">
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ut expedita optio fugiat doloremque facere voluptatibus nobis culpa, architecto velit explicabo. Eos amet deserunt inventore quis.</p>
+            </div>
+
+        </li>
+
+        <li>
+            <input type="radio" name="accordion" id="second">
+            <label for="second">Dúvida <span>2</span></label>
+            <div class="content">
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ut expedita optio fugiat doloremque facere voluptatibus nobis culpa, architecto velit explicabo. Eos amet deserunt inventore quis.</p>
+            </div>
+
+        </li>
+
+        <li>
+            <input type="radio" name="accordion" id="third">
+            <label for="third">Dúvida <span>3</span></label>
+            <div class="content">
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ut expedita optio fugiat doloremque facere voluptatibus nobis culpa, architecto velit explicabo. Eos amet deserunt inventore quis.</p>
+            </div>
+
+        </li>
+
+        <li>
+            <input type="radio" name="accordion" id="fourth">
+            <label for="fourth">Dúvida <span>4</span></label>
+            <div class="content">
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ut expedita optio fugiat doloremque facere voluptatibus nobis culpa, architecto velit explicabo. Eos amet deserunt inventore quis.</p>
+            </div>
+
+        </li>        
+    </ul>
+
+    <!-- Inicio Footer -->
+    <footer>
+        <div class="row">
+            <div class="col">
+                <img src="./assets/img/logo.png"  class="img-footer">
+                <p>Descrição da empresa Lorem, ipsum dolor sit amet consectetur adipisicing elit. Omnis incidunt ut
+                    expedita ipsam ad excepturi sunt deserunt possimus eligendi eum.</p>
+            </div>
+            <div class="col">
+                <h3>Office <div class="underline"><span></span></div>
+                </h3>
+                <p>xxxxx</p>
+                <p>São Paulo, SP</p>
+                <p>Santana, 000, Brasil</p>
+                <p class="email-id"> contato.integratec@gmail.com</p>
+                <h4>+55 (11) 96666-5555</h4>
+            </div>
+            <div class="col">
+                <h3>Links <div class="underline"><span></span></div>
+                </h3>
+                <ul>
+                    <li><a href="">Home</a></li>
+                    <li><a href="">Services</a></li>
+                    <li><a href="">About Us</a></li>
+                    <li><a href="">Features</a></li>
+                    <li><a href="">Contact</a></li>
+                </ul>
+            </div>
+            <div class="col">
+                <h3>Newsletter <div class="underline"><span></span></div>
+                    <h3>
+                        <form class="form-ft">
+                            <i class="fa-regular fa-envelope"></i>
+                            <input type="text" type="email" placeholder="Insira seu e-mail" required>
+                            <button type="submit"><i class="fa-solid fa-arrow-right"></i></button>
+                        </form>
+                        <div class="social-icons">
+                            <i class="fa-brands fa-facebook-f"></i>
+                            <i class="fa-brands fa-instagram"></i>
+                            <i class="fa-brands fa-whatsapp"></i>
+                        </div>
+            </div>
+        </div>
+        <hr>
+        <p class="copyright">IntegraTec &copy;2023 - Todos os direitos reservados</p>
+    </footer>
+    
 </body>
 
 </html>
